@@ -1,10 +1,10 @@
 import { test, expect, type Page } from '@playwright/test'
 
 const zhRecommendedDishes = [
-  { name: '鎏金番茄鸳鸯锅', description: '慢熬番茄与醇香牛油，一锅双味', price: '¥68 起' },
-  { name: '牛油麻辣锅', description: '醇厚牛油，花椒与辣椒层层释香', price: '¥59 起' },
-  { name: '琥珀嫩牛肉', description: '鲜切嫩牛肉，涮煮约 30 秒', price: '¥42 起' },
-  { name: '鲜虾滑', description: '虾肉含量充足，弹嫩鲜甜', price: '¥39 起' },
+  { name: '鎏金番茄鸳鸯锅', description: '慢熬番茄与醇香牛油，一锅双味', price: '¥68.00 起' },
+  { name: '牛油麻辣锅', description: '醇厚牛油，花椒与辣椒层层释香', price: '¥59.00 起' },
+  { name: '琥珀嫩牛肉', description: '鲜切嫩牛肉，涮煮约 30 秒', price: '¥42.00 起' },
+  { name: '鲜虾滑', description: '虾肉含量充足，弹嫩鲜甜', price: '¥39.00 起' },
 ]
 
 async function gotoHome(page: Page) {
